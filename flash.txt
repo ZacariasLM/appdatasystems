@@ -1,0 +1,7 @@
+logo=App Data Systems
+&backgroundletters=
+&textline1=Revenue Growth
+&textline2=Meaningful Use
+&textline3=Practice Management
+&textline4=Billing Experts
+&url=index.html

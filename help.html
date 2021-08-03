@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Web Template Help</title>
+
+<link rel="stylesheet" href="corporatestyle.css" type="text/css">
+
+<style type="text/css">
+
+.helpheader		{ margin-bottom: 5px; }
+
+#date-location		{ visibility:hidden; }
+
+.helptable		{ width: 750px; }
+
+.helptable-td 		{ padding: 10px; }
+
+.helptable-leftside	{ width: 160px; }
+
+</style>
+
+
+<script type="text/javascript" src="javascripts.js"></script>
+<script type="text/javascript" src="pop-closeup.js"></script>
+
+</head>
+
+<body>
+
+<div class="printhide">
+
+<!-- START IMAGE BAR -->
+<div class="imagebar" style="background-image: url('picts/home.jpg');">
+<img src="picts/home.jpg" width="720" height="80" class="blockimage left-div" alt="Image">
+</div>
+<!-- END IMAGE BAR -->
+
+<!-- COLOR PAGE BAR -->
+<div class="pagebar" style="margin-bottom: 8px;">
+&nbsp;<br>
+</div>
+
+<script type="text/javascript" src="http://allwebcodesign.com/setup/templatehelptop.js"></script>
+
+</div>
+
+
+<!-- MAIN -->
+<table class="helptable center-div"><tr><td class="printhide td-left td-top helptable-td helptable-leftside">
+
+
+
+<a href="index.html"><img src="picts/help.jpg" height="148" width="148" class="img-borders" alt="image"></a><br>
+
+
+
+<br>
+
+
+
+[ <a href="index.html">Homepage</a> ]<br>
+
+[ <a href="http://allwebcodesign.com">Allwebco Design</a> ]<br>
+
+
+[ <a href="http://allwebcodesign.com/setup/index.htm">Allwebco Templates</a> ]<br>
+
+
+[ <a href="http://allwebco.com">Allwebco Hosting</a> ]<br><br>
+
+
+
+<script type="text/javascript" src="http://allwebcodesign.com/setup/templatehelp.js"></script>
+
+<br>
+
+<a href="http://allwebcodesign.com"><img src="http://allwebcodesign.com/picts/logo-templates.gif" alt="Allwebco"></a>
+
+<br><br>
+
+
+
+[ <a href="missing.html">Missing Page</a> ]<br>
+
+[ <a href="thanks.htm">Thanks Page</a> ]<br>
+
+[ <a href="thanks-payment.htm">PayPal Thanks</a> ]<br><br>
+
+
+
+
+</td><td class="printhelp td-left td-top helptable-td">
+
+<div class="page-splits"></div>
+<br>
+
+<span class="subtitle">Setting up your website template:</span><br>
+<span class="smalltitle">HTML<span class="hilite">5</span> - Paypal "Type 2" Forms</span><br>
+
+
+<br>
+<div class="page-splits"></div>
+<br>
+
+
+<span class="smalltitle">Step 1:<br></span>
+<b>EDIT HEADER FLASH:</b> | <a href="http://www.allwebco-templates.com/support/S_flash_details.htm">More Details</a><br>
+Open the "flash.txt" file with Notepad or any plain text editor and edit "Your Website Title" with your website name. Be sure not to delete the "logo=". Optionally add text after the "&backgroundletters=" or leave this blank. Do not delete the "&backgroundletters=". You can also edit the 4 "&textline1" lines in the flash.txt. This will change the Flash logo on all pages. If you wish to use a graphic logo, there are instructions later in this document.
+
+<br><br>
+
+Edit the "Welcome" text for the "var LogoText" in the "header.js" with your site name. To test this, make the "var showflash" a "no" and open the "index.html" in your web browser. This is the text that will show in non-Flash browsers. Change the "var showflash" back to "yes" when you are done.
+
+<br><br>
+
+<b>INCLUDED FLASH DETECT - HEADER DETECT:</b> | <a href="http://www.allwebco-templates.com/support/S_flash_mobiledetection.htm">More Details</a><br>
+The "header.js" includes a browser detection script for non-Flash browsers and devices. An option for testing and to show either text, or an image in non-Flash browsers is included in the "header.js". Click above for details.
+
+<br><br>
+
+
+<span class="smalltitle">Step 2:<br></span>
+<b>EDIT COPYRIGHT:</b> | <a href="http://www.allwebco-templates.com/support/S_js_files.htm">More Details</a><br>
+Open the "footer-copyright.js" file in Notepad or any text editor, edit the "Yourcompany.com" text with your website or company name. This will update the footer info on all pages. Edit all ".js" files with a text editor.
+
+<br><br>
+
+
+<span class="smalltitle">Step 3:<br></span>
+<b>EDIT CONTACT INFO:</b>  | <a href="http://www.allwebco-templates.com/support/S_js_files.htm">More Details</a><br>
+Open the "contact.js" file in Notepad or any text editor and change the company name, address, phone and fax number and e-mail address (edit the e-mail in 2 places). This will change contact info on the contact page. This is done as a javascript file so your e-mail will not appear on your website and you'll receive less spam mail.
+
+<br><br>
+
+
+<span class="smalltitle">Step 4:<br></span>
+<b>EDIT THE CONTACT FORM:</b>
+
+<br><br>
+
+<a href="http://allwebco-templates.com/support/S_contact_form.htm">Click for current info on setting up the template forms.</a>
+
+<br><br>
+
+<a href="http://allwebco-templates.com/support/S_contact_form_morefields.htm">Click for info on adding more fields to the forms.</a>
+
+<br><br>
+
+<a href="http://allwebco-templates.com/support/S_contact_form_colors.htm">Click for changing form sizes or colors.</a>
+
+<br><br>
+
+If you want to use only e-mail on the contact page you can remove the contact form from the "contact.htm" between the comment tags.
+
+<br><br>
+
+
+<span class="smalltitle">Step 5:<br></span>
+<b>REPLACE THE GALLERY PICTURES:</b> | <a href="http://www.allwebco-templates.com/support/S_gallery_replacment.htm">More Details</a><br>
+
+The best way to setup the pictures in the gallery is not to actually edit the HTML pages and change the pictures on each individual page. The fastest way is to simply replace the pictures in the "gallery" folder with your own by overwriting the files that are in there now and using the same generic names.<br><br>
+
+In the "gallery" folder, replace the 12 "Fgallery" pictures with full size photos. Replace the 12 "gallery" pictures with your thumbnails. The full size images are now 500 x 333 pixels and the thumbnails are 130 x 87 pixels but you can make them any size that you prefer.<br><br>
+
+<b>IMAGE VIEWER OPTIONS:</b> | <a href="http://www.allwebco-templates.com/support/S_pop-ups_variables.htm">More Details</a><br>
+You can change some options for the gallery image viewer page (image-viewer.htm) by editing the pop-closeup.js in Notepad. Options include new browser window, or popup for the viewer.
+
+<br><br>
+
+
+<span class="smalltitle">Step 6:</span><br>
+<b>EDIT SIDEBAR:</b> | <a href="http://www.allwebco-templates.com/support/S_menu_sidebar.htm">More Details</a><br>
+Open the "sidebar.js" file in Notepad or any text editor, and edit the text and links with your own text. You will also find some options you can change at the top of this file. Editing the sidebar.js will update all the pages at one time.
+
+<br><br>
+
+<b>SIDEBAR IMAGES:</b> | <a href="http://www.allwebco-templates.com/support/S_pictures_change.htm">More Details</a><br>
+The sidebar includes a 10 image random javascript changer. Each time a page is viewed the sidebar will display one of these images. To replace these images edit the "sidebar-1.jpg" through "sidebar-10.jpg" in the "picts" folder. These images are now 158 x 125 pixels. If you want to change the size, edit the "sidebar.js".
+
+<br><br>
+
+<span class="smalltitle">Step 7:<br></span>
+<b>EDIT TWITTER FACEBOOK LINKEDIN LINKS:</b> | <a href="http://www.allwebco-templates.com/support/S_social_network.htm">Social Links</a> | <a href="http://www.allwebco-templates.com/support/S_js_files.htm">.js variable editing</a><br>
+Open the "social-links.js" in a text editor and edit the 3 link variables with your link to Twitter Facebook and LinkedIn. The "social-links.js" includes "yes/no" variables to turn off any or all of the social links. <a href="http://www.allwebco-templates.com/support/S_js_files.htm">Variable editing help.</a>
+
+<br><br>
+
+<span class="smalltitle">Step 8:<br></span>
+<b>EDIT PAGES:</b> | <a href="http://www.allwebco-templates.com/support/S_HTML_software.htm">Software choices</a> | <a href="http://www.allwebco-templates.com/support/S_edit_in_notepad.htm">Notepad Editing</a><br>
+Edit the text on all HTML pages with your information. You can use Frontpage, Dreamweaver, Exp Web, any wysiwyg HTML editor or a text editor like Notepad. Take care not to delete any of the HTML tags that surround the text.
+
+<br><br>
+
+
+<span class="smalltitle">Step 9:<br></span>
+<b>EDIT TITLES, DESCRIPTIONS AND KEYWORDS:</b> | <a href="http://www.allwebco-templates.com/support/S_Frontpage_titles.htm">More Details</a><br>
+Open each of the pages and change the titles (at the very top of the page) and also the description and the keywords to match your product or service. You can edit one page and copy and paste to the other pages. Be careful to only change what's inside the "" so you don't disturb the html code. Page titles are important so your site will get a good listing at Google, Yahoo! and other search engines.
+
+<br><br>
+
+
+
+
+<span class="smalltitle">Step 10:<br></span>
+<b>UPLOAD:</b> | <a href="http://www.allwebco-templates.com/support/S_FTP.htm">More Details</a><br>
+Upload the pages on to your hosting company's server using ftp software or Windows Explorer or your control panel. Be sure to upload the "picts" and "gallery" and "PDF" folders and all files in these folders.
+
+<br><br>
+
+
+<br>
+<div class="page-splits"></div>
+<br>
+
+
+<span class="subtitle">Options:<br></span>
+
+
+<br>
+<div class="page-splits"></div>
+<br>
+
+
+<b>USING A GRAPHIC LOGO:</b><br>
+You can replace the Flash logo with a graphic logo. To do this, delete or rename the "header.js", then rename the "graphic_logo_header.js" to "header.js". In the picts folder you will find a graphic called "logo.jpg". Edit this graphic with your logo. You can make your logo.jpg any size you require. Edit the header background color in the "corporatestyle.css".
+
+<br><br>
+
+A Photoshop "logo.PSD" file is located in the "extras" folder.
+
+<br><br>
+
+<b>PDF PAGE SETUP:</b> | <a href="http://www.allwebco-templates.com/support/S_PDFpages.htm">More Details</a><br>
+In the "PDF" folder, replace the "PDFsample1.pdf" through "PDFsample6.pdf" with your PDF files. Edit the "PDFgallery.htm" with info for your PDF files. Click link above for setup details.
+
+<br><br>
+
+<b>ADDING ADSENSE ADS:</b> | <a href="http://www.allwebco-templates.com/support/S_portal.htm">More Details</a><br>
+You will not see any Google ads in your template download. For details on ad setup and placement see the <a href="http://www.allwebco-templates.com/support/S_portal.htm">portal template ad setup support page.</a> You will do only 2 steps on this support page. This is a portal "light" or LT model. After you do the steps on the support page, edit your "corporatestyle.css". Find the "RIGHT SIDEBAR OPTIONS". Adjust the "sidebarR" class so it is the width of the Google ads you are adding (this should be edited to 120 or more). Adjust the "whitespaceL" for the space between your page text and your ads.
+
+<br><br>
+
+<b>EDITING THE FOOTER "footer.htm":</b> | <a href="http://www.allwebco-templates.com/support/S_footer_IFrame.htm">More Details</a><br>
+You will edit the "footer.htm" like any other HTML page. Editing the "footer.htm" will update all the pages at one time.
+
+<br><br>
+
+If you need more height in the footer you can edit the "footer-height" style class in the "FOOTER OPTIONS" section in the "corporatestyle.css".
+
+<br><br>
+
+<b>FONTS:</b> | <a href="http://www.allwebco-templates.com/support/S_font_colors.htm">More Details</a><br>
+You can change your font colors and sizes by editing the "corporatestyle.css" with a text editor. <a href="http://www.allwebco-templates.com/support/S_colors_standard.htm">You can find other font colors by clicking here</a>. Edit the "body" code right after the "THE NEXT LINE CONTROLS THE DEFAULT FONT SIZE" note to change the copy on all pages. Change the "title" or "subtitle" px size to change all the title sizes.
+
+<br><br>
+
+<b>MENU / CHANGING / ADDING BUTTONS:</b> | <a href="http://www.allwebco-templates.com/support/S_menu_editing.htm">More Details</a><br>
+You can change the names on the buttons like "About" or "Services" to other page names by editing the "menu.js" in Notepad (see image below). Only change the one instance of the name and not the name with the ".htm" after it. Whatever you change in the "menu.js" will update on every page on the website. Keep the names short so they don't go outside the menu.<br>
+
+<br>
+
+You can add new pages by copying button code in the "menu.js" and pasting it below itself. You may want to back up your files before you edit them.
+
+<br>
+
+<img src="picts/help-menu.gif" alt="image" style="margin: 15px 0px 0px 0px;"><br>
+
+<br>
+
+<b>PICTURES:</b> | <a href="http://www.allwebco-templates.com/support/S_pictures_change.htm">More Details</a><br>
+You can replace all template images with your own. Each webpage includes a picture named according to the page it's on. You will find all pictures in the "picts" folder. Each main page banner image will be 720 x 80 pixels. Right click, or hover your mouse over any image for info on the image including sizes.
+
+
+<br><br>
+
+<b>ADDING PAGES:</b> | <a href="http://www.allwebco-templates.com/support/S_add_remove_pages.htm">More Details</a><br>
+You can add pages to your website by copying and pasting any one of the pages and renaming it to whatever you need. You can then add links from the other pages or even add the page to the menu by opening the menu.js and copying and pasting one of the buttons below another. There are notes in the "menu.js" to help you add a button.
+
+
+<br><br>
+
+<b>PAGE HEIGHTS:</b><br>
+So all your pages will maintain a standard height a "pageheight" class with a "min-height" is included. Edit this height in the "corporatestyle.css".
+
+<br><br>
+
+<b>PAGE WIDTHS:</b><br>
+So all your pages will maintain a standard width a "pagewrapper" class for the page outer width, and also a "content-width" class is included. Edit these class widths in the "corporatestyle.css".
+
+<br><br>
+
+<b>SITE MAP PAGE:</b><br>
+The "site_map.htm" is linked from the index.html. It is best not to remove this link so search engines can find your site map and properly list all your pages when users search at major search engines.
+
+<br><br>
+
+<b>USING THE PLAIN "NO PAYPAL" GALLERY PAGES:</b><br>
+If you do not want to use the Paypal cart pages, move the 2 "FORMgallery?.htm" pages into the "extras" folder.
+<br><br>
+
+<span class="smalltitle">PAYPAL SHOPPING CART SETUP (TYPE 2 FORMS):</span><br>
+Paypal shopping cart forms have been included in the "FORMgallery1.htm" pages. Follow the steps below to setup the shopping cart page. This template includes "Type 2" Paypal forms.
+
+<ol>
+
+<li>Setup a <a href="https://www.paypal.com/us/mrb/pal=54WDFXDYG6TB6">Paypal merchant account.</a><br><br>
+
+<li>Move the 2 template "gallery?.htm" pages into the "extras" folder.<br><br>
+
+<li>Rename the 2 "FORMgallery?.htm" pages to "gallery?.htm" pages maintaining their respective gallery numbers. For example, rename "FORMgallery1.htm" to "gallery1.htm".<br><br>
+
+<li>See the "replace the gallery pictures" step above on this page.<br><br>
+
+<li>Edit the <span class="hilite">"paypal@your-web-domain.com"</span> in the "VIEW CART BUTTON" section near the top in 2 gallery pages in 1 place each with your Paypal e-mail. This will update the view cart button.<br><br>
+
+<li>You will edit the "10909929" in each form in the "gallery?.htm" pages with your generated product number. This will be the following code:<br><br>
+
+&lt;input type="hidden" name="hosted_button_id" value="<span class="hilite">10909929</span>"&gt;<br><br>
+
+<li>Edit all forms as shown on the <a href="http://www.allwebco-templates.com/support/S_paypalT2.htm">Paypal Type 2 Forms setup support page.</a><br><br>
+
+</ol>
+
+
+<br>
+<div class="page-splits"></div>
+<br>
+
+
+
+<script type="text/javascript" src="http://allwebcodesign.com/setup/templatehelplinks.js"></script>
+
+<br>
+
+
+
+</td></tr></table>
+<!-- MAIN TABLE -->
+
+<!-- COLOR PAGE BAR -->
+<div class="pagebar">
+&nbsp;<br>
+</div>
+
+<!-- START IMAGE BAR -->
+<div class="imagebar printhide" style="background-image: url('picts/home.jpg');">
+<img src="picts/home.jpg" width="720" height="80" class="blockimage left-div" alt="Image">
+</div>
+<!-- END IMAGE BAR -->
+
+
+</body></html>

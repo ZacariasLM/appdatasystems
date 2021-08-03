@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+
+
+<title>Image View</title>
+
+
+
+<link rel="stylesheet" href="corporatestyle.css" type="text/css">
+
+<script type="text/javascript" src="javascripts.js"></script>
+<script type="text/javascript" src="pop-closeup.js"></script>
+
+
+
+<meta http-equiv="imagetoolbar" content="no">
+
+
+
+<script type="text/javascript">
+<!-- Begin
+var message="You may not right mouse click this page.";
+if (navigator.appName == 'Microsoft Internet Explorer'){
+function NOclickIE(e) {
+if (event.button == 2 || event.button == 3) {
+alert(message);
+return false;
+}
+return true;
+}
+document.onmousedown=NOclickIE;
+document.onmouseup=NOclickIE;
+window.onmousedown=NOclickIE;
+window.onmouseup=NOclickIE;
+}
+else {
+function NOclickNN(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}}}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=NOclickNN; }
+document.oncontextmenu=new Function("alert(message);return false")
+}
+//  End -->
+</script>
+
+
+
+</head>
+
+<body onload="self.focus();">
+
+
+
+<!-- PAGE TABLE -->
+<div class="fullwidth td-center">
+
+
+
+<!-- COLOR PAGE BAR -->
+<div class="pagebar pagebar-viewer td-right" style="margin-bottom: 10px;">
+<a href="#" onclick="self.close();"><img src="picts/gallery-close-viewer.gif" width="28" height="28" class="blockimage right-div" style="margin-top: 1px;" alt="Close Window"></a>
+</div>
+
+
+
+<br>
+
+
+
+<a href="#" onclick="self.close();">
+
+
+<!-- CODE THAT DISPLAYS THE GALLERY IMAGE -->
+
+<script type="text/javascript">
+<!-- // START SCRIPT
+if (location.search.length > 0) {
+document.write('<img src="');
+document.write(location.search.substring(1));
+document.write('" class="viewer-border"><br>');
+}
+//-->
+</script>
+
+</a>
+
+
+
+<br>
+
+
+
+<!-- START TEXT AREA -->
+<div class="gallerytext center-div td-center viewer-box">
+
+
+
+<!-- IMAGE TITLE -->
+
+
+<span class="gallerytitle">
+
+<script type="text/javascript">
+<!-- // START SCRIPT
+if (location.search.length > 0) {
+document.write(location.search.substring(1));
+}
+//-->
+</script>
+
+</span>
+
+<br>
+
+You can edit the text in this area, however, this text is common for all images. Only the image name above will display as a unique name for each image on this viewer page. Edit the "pop-closeup.js" to make this viewer open a popup, a new browser window or a same browser window. Edit the "image-viewer.htm" to edit this text.
+
+<br>
+
+</div>
+<!-- END TEXT AREA -->
+
+
+
+<br>
+
+
+
+</div>
+<!-- END PAGE WRAPPER -->
+
+
+
+</body>
+</html>
